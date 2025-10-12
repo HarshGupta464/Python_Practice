@@ -1,3 +1,0 @@
-Hi everyone. 
-We are learnin File I/OUsing Python. 
-I like programming in Python
