@@ -9,6 +9,10 @@ db = mysql.connector.connect(
 dbCursor=db.cursor()
 # dbCursor.execute("Create database daMastersBooklist")
 
-dbCursor.execute("Show databases")
+dbCursor.execute("use daMastersBooklist")
+# dbCursor.execute("CREATE TABLE bookdetail(Rating INT(20), book VARCHAR(40), price DECIMAL(16,2))")
+dbCursor.execute("SHOW TABLES")
 for i in dbCursor:
     print(i)
+
+
