@@ -54,7 +54,7 @@ for i in l1:
 print(l2)
 
 l3=[i for i in l1 if i>45]
-print(l3)
+print('l3:', l3)
 
 # Practice questions
 print("Practice questions:\n")
